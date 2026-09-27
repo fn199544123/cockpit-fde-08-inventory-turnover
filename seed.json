@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "batches": [
+    {
+      "id": "DEMO-FZ-001",
+      "product": "速冻水饺",
+      "room": "一车间",
+      "location": "A-01",
+      "entry": "2026-06-19",
+      "expiry": "2026-09-15",
+      "qty": 160
+    },
+    {
+      "id": "DEMO-FZ-002",
+      "product": "速冻水饺",
+      "room": "一车间",
+      "location": "A-02",
+      "entry": "2026-07-24",
+      "expiry": "2026-10-11",
+      "qty": 240
+    },
+    {
+      "id": "DEMO-FZ-003",
+      "product": "速冻水饺",
+      "room": "二车间",
+      "location": "B-01",
+      "entry": "2026-09-07",
+      "expiry": "2027-01-05",
+      "qty": 300
+    },
+    {
+      "id": "DEMO-FZ-004",
+      "product": "速冻汤圆",
+      "room": "二车间",
+      "location": "B-02",
+      "entry": "2026-06-29",
+      "expiry": "2026-10-17",
+      "qty": 120
+    },
+    {
+      "id": "DEMO-FZ-005",
+      "product": "速冻包子",
+      "room": "三车间",
+      "location": "C-01",
+      "entry": "2026-09-12",
+      "expiry": "2027-02-24",
+      "qty": 240
+    },
+    {
+      "id": "DEMO-FZ-006",
+      "product": "速冻汤圆",
+      "room": "三车间",
+      "location": "C-02",
+      "entry": "2026-05-30",
+      "expiry": "2026-12-16",
+      "qty": 80
+    }
+  ],
+  "logs": [
+    {
+      "id": "DEMO-L-00001",
+      "batch": "DEMO-FZ-001",
+      "date": "2026-06-19",
+      "type": "初始入库",
+      "delta": 160,
+      "note": "脱敏演示初始入库"
+    },
+    {
+      "id": "DEMO-L-00002",
+      "batch": "DEMO-FZ-002",
+      "date": "2026-07-24",
+      "type": "初始入库",
+      "delta": 240,
+      "note": "脱敏演示初始入库"
+    },
+    {
+      "id": "DEMO-L-00003",
+      "batch": "DEMO-FZ-003",
+      "date": "2026-09-07",
+      "type": "初始入库",
+      "delta": 360,
+      "note": "脱敏演示初始入库"
+    },
+    {
+      "id": "DEMO-L-00004",
+      "batch": "DEMO-FZ-004",
+      "date": "2026-06-29",
+      "type": "初始入库",
+      "delta": 120,
+      "note": "脱敏演示初始入库"
+    },
+    {
+      "id": "DEMO-L-00005",
+      "batch": "DEMO-FZ-005",
+      "date": "2026-09-12",
+      "type": "初始入库",
+      "delta": 280,
+      "note": "脱敏演示初始入库"
+    },
+    {
+      "id": "DEMO-L-00006",
+      "batch": "DEMO-FZ-006",
+      "date": "2026-05-30",
+      "type": "初始入库",
+      "delta": 80,
+      "note": "脱敏演示初始入库"
+    },
+    {
+      "id": "DEMO-L-00007",
+      "batch": "DEMO-FZ-003",
+      "date": "2026-09-22",
+      "type": "出库",
+      "delta": -60,
+      "note": "演示历史出库"
+    },
+    {
+      "id": "DEMO-L-00008",
+      "batch": "DEMO-FZ-005",
+      "date": "2026-09-25",
+      "type": "出库",
+      "delta": -40,
+      "note": "演示历史出库"
+    }
+  ],
+  "seq": 8,
+  "settings": {
+    "near": 30,
+    "stale": 60,
+    "period": 30
+  }
+}

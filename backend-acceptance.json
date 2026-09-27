@@ -1,0 +1,25 @@
+{
+  "project": 8,
+  "ok": true,
+  "checks": [
+    "直接API非法业务数据拒绝，数据库无变更",
+    "跨站普通表单写入与数据库/源码下载拒绝",
+    "new batches and initial inbound ledgers; FIFO ordered by entry; expired excluded",
+    "overstock and negative outbound rejected; shipment15 consumes old10 then new5; expired unchanged",
+    "one-day turnover15/20=0.75 includes expired balances; persistence after reload",
+    "supplement inbound and reasoned inventory edit update ledger",
+    "near-expiry/stagnant filters and CSV match visible records",
+    "reset confirmation and no-data turnover explicit dash",
+    "真实浏览器操作经HTTP写入SQLite，审计记录与版本一致",
+    "新浏览器无本地存档，读取同一服务端数据",
+    "过期版本返回409；重开数据库后数据和版本保留",
+    "手机宽度无整页横向溢出",
+    "前端版本冲突明确提示并停止继续提交",
+    "断网保存失败有明确提示，数据库不变且不显示保存成功"
+  ],
+  "sha256": {
+    "index.html": "264f59f42a40eaf14ed5312d7eaeb7a2afb6c1cf57801d34cac37157bc6e7af6",
+    "backend.py": "88ba4aac58fbb83e34c46978ca51a35fe24316cc95c4d4766fd27b024f511d15",
+    "seed.json": "c14926790d28806147d03c820097ec1275d3382a7b56033cbceef2e2b96b433f"
+  }
+}
